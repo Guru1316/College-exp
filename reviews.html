@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - College Explorer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #004085;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            background-color: #343a40;
+            color: white;
+            padding: 0.5rem 1rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #004085;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .reviews {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .review {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .review h3 {
+            color: #333;
+            margin: 0 0 0.5rem 0;
+        }
+        .review p {
+            margin: 0.5rem 0;
+            color: #555;
+        }
+        .review .rating {
+            color: #ffc107;
+            font-size: 1.2rem;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Reviews</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="colleges.html">Colleges</a>
+        <a href="courses.html">Courses</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <h2>Student and Alumni Reviews</h2>
+        <div class="reviews">
+            <div class="review">
+                <h3>College A</h3>
+                <p><strong>Reviewer:</strong> John Doe</p>
+                <p class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae nisi nec justo elementum feugiat.</p>
+            </div>
+            <div class="review">
+                <h3>College B</h3>
+                <p><strong>Reviewer:</strong> Jane Smith</p>
+                <p class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec dui vel metus vestibulum accumsan.</p>
+            </div>
+            <div class="review">
+                <h3>College C</h3>
+                <p><strong>Reviewer:</strong> Mark Johnson</p>
+                <p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed nulla id nunc mollis faucibus.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 College Explorer. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
